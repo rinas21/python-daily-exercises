@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/fizz-buzz/
 
-# Flutter Daily Practice
 from typing import List
 class Solution:
     def fizzbuzz(self, n: int) -> List[str]:
