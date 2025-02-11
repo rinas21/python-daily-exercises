@@ -3,7 +3,7 @@
 # Flutter Daily Practice
 from typing import List
 class Solution:
-    def fizzBuzz(self, n: int) -> List[str]:
+    def fizzbuzz(self, n: int) -> List[str]:
         result=[]
         for i in range(1,n+1):
                 if i % 15 == 0:
@@ -16,5 +16,5 @@ class Solution:
                     result.append(str(i))
         return result
 solution=Solution()
-result=solution.fizzBuzz(4)
+result=solution.fizzbuzz(4)
 print(result)
